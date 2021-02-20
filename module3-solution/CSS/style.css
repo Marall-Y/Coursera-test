@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  color: #000;
+  font-size: 12px;
+}
+
+/**NAVIGATION**/
+.navbar-header a:hover,
+.navbar-header a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+  background-color: rgb(247, 235, 170);
+}
+ul.navbar-nav li a {
+  text-align: center;
+}
+ul.navbar-nav li:hover {
+  background-color: rgb(248, 176, 220);
+}
+/** Main Content**/
+#main-content h2 {
+  margin-bottom: 25px;
+}
+.tiles {
+  padding: 0 10px;
+  background: rgb(240, 190, 190);
+}
+h3 {
+  padding-top: 20px;
+}
